@@ -20,8 +20,21 @@ const Projects: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
   const projects: Project[] = [
-    {
+    
+        {
       id: 1,
+      title: 'Election-App[*Team]',
+      description: 'A modern digital voting platform that simplifies elections — vote securely, track results instantly, and ensure fairness with every click.',
+      longDescription: 'Online Election System is a secure and user-friendly web application that allows users to cast their votes digitally and view real-time election results. Designed for transparency, efficiency, and accessibility, this platform ensures fair voting practices with a modern interface and robust backend architecture.',
+      technologies: ['React', 'Tailwind CSS', 'React Hooks', 'Java Spring Framework', 'JWT', 'PostgreSQL', 'MongoDB'],
+      githubUrl: 'https://github.com/priyanshuboy/election-app',
+      liveUrl: 'https://election-app-mocha.vercel.app/',
+      imageUrl: 'https://images-platform.99static.com//GnQgSjlY4cFUBKGllMc-iyAZckc=/180x275:1587x1682/fit-in/590x590/projects-files/128/12883/1288320/3c34bb9b-f362-4676-98ce-5cf2be5aaf2e.jpg',
+      featured: false,
+      date: '2024'
+    },
+    {
+      id: 2,
       title: 'StreamSphere',
       description: 'A fully functional YouTube clone with video streaming, search, and user interactions.',
       longDescription: 'Built a comprehensive YouTube clone featuring video upload, streaming, search functionality, user authentication, and interactive features like comments and likes. Implemented responsive design and optimized performance for seamless user experience.',
@@ -32,7 +45,7 @@ const Projects: React.FC = () => {
       date: '2024'
     },
     {
-      id: 2,
+      id: 3,
       title: 'Brainly',
       description: 'An educational platform clone for collaborative learning and knowledge sharing.',
       longDescription: 'Developed a comprehensive educational platform similar to Brainly, featuring question-answer system, user profiles, collaborative learning tools, and gamification elements to encourage participation and knowledge sharing.',
@@ -43,7 +56,7 @@ const Projects: React.FC = () => {
       date: '2025'
     },
     {
-      id: 3,
+      id: 4,
       title: 'Portfolio Website',
       description: 'This portfolio website showcasing my skills and projects with beautiful animations.',
       longDescription: 'Created this modern portfolio website using React, TypeScript, and Anime.js for smooth animations. Features responsive design, dark theme, and interactive elements to showcase my development skills and projects.',
@@ -55,7 +68,7 @@ const Projects: React.FC = () => {
       date: '2025'
     },
         {
-      id: 4,
+      id: 5,
       title: 'CokeSplash',
       description: 'A sleek and refreshing landing page showcasing the iconic Coca-Cola brand with bold visuals and smooth user experience.',
       longDescription: 'Designed and developed a visually striking landing page for the Coca-Cola brand, emphasizing bold design, smooth animations, and responsive layout. The project showcases creative front-end techniques using HTML, CSS, and JavaScript to deliver an engaging user experience. Special attention was given to brand consistency, color psychology, and mobile-first design principles to reflect the iconic and refreshing image of Coca-Cola.',
@@ -66,7 +79,7 @@ const Projects: React.FC = () => {
       featured: false,
       date: '2024'
     } ,
-       {   id: 5,
+       {   id: 6,
       title: 'DrawMaster',
       description: 'A collaborative whiteboard tool built with custom drawing logic and real-time canvas interactions using React and TypeScript',
       longDescription: 'Developed a real-time collaborative whiteboard application using React and TypeScript, enabling users to draw, edit, and interact on a shared canvas with custom vector-based drawing logic. Implemented features like shape selection, freehand drawing, multi-user synchronization via WebSocket, and undo/redo functionality. Designed the canvas rendering from scratch without relying on clone implementations, focusing on performance, accuracy, and user experience',
